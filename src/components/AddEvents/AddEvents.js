@@ -12,7 +12,7 @@ const AddEvents = () => {
             imageURL: imageURL
         }
         console.log(data)
-        fetch('http://localhost:5055/addEvent', {
+        fetch('https://quiet-river-48888.herokuapp.com/addEvent', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Event = ({ event }) => {
     const deleteEvent = id => {
-        fetch(`http://localhost:5055/deleteEvent/${id}`, {
+        fetch(`https://quiet-river-48888.herokuapp.com/deleteEvent/${id}`, {
             method: 'DELETE'
         }).then(result => console.log('deleted'))
     }
